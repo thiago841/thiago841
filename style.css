@@ -27,5 +27,7 @@ body {
              border-width: 5px;
              width: 38%;
              background-color: #f3e3cc;}
+.fila {display: flex;
+       flex-direction: row;}
 }
 
