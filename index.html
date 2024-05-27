@@ -1,137 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Polos Opuestos</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
     <header class="header">
+        <img class="logo" src="./Imagenes/logopolos.png" alt="logo" width="75px" height="75px">
         <nav>
-            <ul class="sin_puntos fila">
+            <ul class="nav_links">
                 <li><a class="1" href="./index.html">INICIO</a></li>
-                <li><a class="2" href="./Paginas/fechas.html">PROXIMAS FECHAS</a></li>
-                <li><a class="3" href="./Paginas/canciones.html">CANCIONES</a></li>
-                <li><a class="4" href="#Redes Sociales">REDES SOCIALES</a></li>
-                <li><a class="5" href="./Paginas/contacto.html">CONTACTO</a></li>
+                <li><a class="2"href="#nosotros">SOBRE NOSOTROS</a></li>
+                <li><a class="3" href="./Paginas/fechas.html">PROXIMAS FECHAS</a></li>
+                <li><a class="4" href="./Paginas/canciones.html">CANCIONES</a></li>
+                <li><a class="5" href="#Redes Sociales">REDES SOCIALES</a></li>   
             </ul>
         </nav>
+        <a class="cta" href="./Paginas/contacto.html"><button class="boton">CONTACTO</button></a>
     </header>
-    <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./Imagenes/polos opuestos.jpg" class="d-block w-100" alt="polos" width="100%" height="600px">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    <main id="polos_opuestos">
 
-    <h1>Polos Opuestos</h1>
-    
-    <h2>Banda Musical</h2>
-    <h3> Acerca del Artista </h3>
-    <p> Polos Opuestos es una banda musical oriunda de la 
-        vibrante ciudad de San Nicolás de los Arroyos, 
-        Buenos Aires, Argentina. Formada por cinco talentosos 
-        músicos, la banda irrumpió en la escena musical con 
-        su primer sencillo titulado "Un Rato", lanzado el 
-        28 de agosto de 2023.</p>
+    <main class="container" id="polos_opuestos" style="
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;"
+    >
+        <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./Imagenes/polos opuestos.jpg" class="imagenes d-block w-100" alt="polos">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./Imagenes/foto amor platonico.jpg" class="d-block w-100" alt="platon">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./Imagenes/foto espalda.jpg" class="d-block w-100" alt="espalda">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./Imagenes/fogon.jpg" class="d-block w-100" alt="yoxvos">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+        </div>
+        <section class="nosotros" id="nosotros">
+            <h1 class="titulos" style="margin-top: 25px;">POLOS OPUESTOS</h1>
+            
+            <h3> Sobre Nosotros </h3>
+            <p> Somos Polos Opuestos, una banda de San Nicolás de los Arroyos, Buenos Aires. Nos unimos como cinco amigos apasionados por la música y lanzamos nuestra primer canción, "Un Rato", el 28 de agosto de 2023.
+            </p>
+            <p>
+                Nuestro último sencillo, "Yo x Vos", es una colaboración especial con el rapero local B.A.N. 
+                Después de lanzar cuatro sencillos, seguimos perfeccionando nuestro estilo musical. Cada canción es una oportunidad para explorar y crecer, buscando siempre sorprender y conectar con la gente que nos escucha.
+            </p>
+        </section>
+        <section class="musica">
+                <h2 class="titulos">INTEGRANTES POLOS</h2>
 
-     <p>Aunque Polos Opuestos aún está en constante búsqueda 
-        de su identidad musical, esto es precisamente lo que 
-        hace que su sonido sea tan emocionante y versátil. 
-        Experimentando con una variedad de géneros musicales, 
-        la banda crea una fusión única de estilos que 
-        evoluciona constantemente. Desde el rock alternativo 
-        hasta el pop, pasando por influencias de la música 
-        latina y el indie, Polos Opuestos lleva a su audiencia 
-        en un viaje musical emocionante y sorprendente.</p>
+            <table>
+                <tr>
+                    <td class="Integrantes">
+                        <a href="https://www.instagram.com/franchiappari?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Francisco Chiappari
+                        </a>
+                    </td>
+                    <td class="Integrantes">
+                        <a href="https://www.instagram.com/fran.liberati?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Francisco Liberati    
+                        </a>
+                    </td>
+                    <td class="Integrantes">
+                        <a href="https://www.instagram.com/rochathiago56/">Thiago Rocha
+                        </a>
+                    </td>
+                    <td class="Integrantes">
+                        <a href="https://www.instagram.com/bauti.izquierdo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Bautista Izquierdo
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://www.instagram.com/n.ulisess?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Ulises Nuñez
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>// Teclado, 21 años</td>
+                    <td>// Voz, 21 años</td>
+                    <td>// Bajo, 21 años</td>
+                    <td>// Guitarra, 21 años</td>
+                    <td>// Batería, 17 años</td>
+                </tr>
+                <tr>
+                    <td class="imagenes_tabla">
+                        <a href="https://www.instagram.com/franchiappari?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                            <img src="./Imagenes/chalom.jpg" alt="chalom" width="100px" height="100px">
+                        </a>
+                    </td>
+                    <td class="imagenes_tabla">
+                        <a href="https://www.instagram.com/fran.liberati?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                            <img src="./Imagenes/liberati.jpg" alt="chalom" width="100px"height="100px">   
+                        </a>
+                    </td>
+                    <td class="imagenes_tabla">
+                        <a href="https://www.instagram.com/rochathiago56/">
+                            <img src="./Imagenes/thiago.jpg" alt="chalom" width="100px" height="100px">
+                        </a>
+                    </td>
+                    <td class="imagenes_tabla">
+                        <a href="https://www.instagram.com/bauti.izquierdo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                            <img src="./Imagenes/bauti.jpg" alt="chalom" width="100px" height="100px">
+                        </a>
+                    </td>
+                    <td class="imagenes_tabla">
+                        <a href="https://www.instagram.com/n.ulisess?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                            <img src="./Imagenes/uli.jpg" alt="chalom" width="100px" height="100px">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </section>
         
-    <p>Recientemente, la banda lanzó su tercer sencillo titulado 
-       "Amor Platónico", que no solo marcó otro hito en su 
-       carrera musical, sino que también sirvió como el anuncio 
-       oficial de la incorporación de un nuevo integrante de la banda. </p>
-<img src="./Imagenes/polos opuestos.jpg" width="400" height="400" alt="Polos Opuestos">
-<table border="1">
-    <h2>Integrantes Polos</h2>
-    <tr>
-        <td>   </td>
-        <td><strong>Nombre y Apellido</strong></td>
-        <td><strong>Instrumento</strong></td>
-        <td><strong>Edad</strong></td>
-    </tr>
-    <tr>
-        <td rowspan="5"><strong>Artistas</strong></td>
-        <td>Francisco Chiappari</td>
-        <td>Piano y Guitarra</td>
-        <td>21</td>
-    </tr>
-    <tr>
-        <td>Francisco Liberati</td>
-        <td>Voz y Guitarra</td>
-        <td>20</td>
-    </tr>
-    <tr>
-        <td>Thiago Rocha</td>
-        <td>Bajo</td>
-        <td>21</td>
-    </tr>
-    <tr>
-        <td>Bautista Izquierdo</td>
-        <td>Guitarra y Voz</td>
-        <td>20</td>
-    </tr>
-    <tr>
-        <td>Ulises Nuñez</td>
-        <td>Bateria</td>
-        <td>16</td>
-    </tr>
-    <tr>
-        <td colspan="4"><strong>CANCIONES</strong></td>
-    </tr>
-    <tr>
-        <td colspan="4">
-            <ul>
-                <li><a href="https://open.spotify.com/intl-es/track/7bQtq46PXMl5mA49l2f5FS?si=7dc9b5ce5fe34e25">Un Rato</a></li>
-                <li><a href="https://open.spotify.com/intl-es/track/3r07V1B9piCMqxWPMnnCEY?si=ee864971ee8241c2">Carlitos</a></li>
-                <li><a href="https://open.spotify.com/intl-es/track/4eVidydQLzTltCTlucwPrx?si=abfa41eeefd94523">Amor Platónico</a></li>
-                <li><a href="https://open.spotify.com/intl-es/track/0iuN23pOZzFcunsrvxhQPB?si=be4bda128bbc45a8">YO x VOS</a></li>
-            </ul>
-        </td>
-    </tr>
-</table>
-<footer class="footer">
-    <section id="Redes Sociales">
-<h2>Redes Sociales</h2>
-<ul class="sin_puntos fila">
-    <li>Instagram: <a href="https://www.instagram.com/polosopuestos.official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">@polosopuestos.official</a></li>
-    <li>Tik Tok: <a href="https://www.tiktok.com/@polosopuestos.oficial?is_from_webapp=1&sender_device=pc">polosopuestos.oficial</a></li>
-    <li>Youtube: <a href="https://www.youtube.com/@bandapolosopuestos">@bandapolosopuestos</a></li>
-    <li>Spotify: <a href="https://open.spotify.com/intl-es/artist/7LLQPZZao1QS0P1aCwR4RC?si=3xx2qrKCQIa8MiJYl0TYJw">POLOS OPUESTOS</a></li>
-</ul>
-</section>
-</footer>
-</main>
+    </main>
+    <footer class="footer">
+        <section id="Redes Sociales">
+            <h2 class="pie">SEGUINOS EN:</h2>
+        </section>
+    <ul class="redes">
+        <li class="flex sin_puntos">
+            <a href="https://www.instagram.com/polosopuestos.official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                <div class="iconos flexBox">
+                    <i class="bi bi-instagram"></i>
+                    <h3 class="textos_footer">@polosopuestos.official</h3>
+                </div>
+            </a>
+        </li>
+        <li class="flex sin_puntos">
+            <a href="https://www.tiktok.com/@polosopuestos.oficial?is_from_webapp=1&sender_device=pc">
+                <div class="iconos flexBox">
+                    <i class="bi bi-tiktok"></i>
+                    <h3 class="textos_footer">polosopuestos.oficial</h3>
+                </div>
+            </a>
+        </li>
+        <li class="flex sin_puntos">
+            <a href="https://www.youtube.com/@bandapolosopuestos">
+                <div class="iconos flexBox">
+                    <i class="bi bi-youtube"></i>
+                    <h3 class="textos_footer">@bandapolosopuestos</h3>
+                </div>
+            </a>
+        </li>
+        <li class="flex sin_puntos">
+            <a href="https://open.spotify.com/intl-es/artist/7LLQPZZao1QS0P1aCwR4RC?si=3xx2qrKCQIa8MiJYl0TYJw">
+                <div class="iconos flexBox">
+                    <i class="bi bi-spotify"></i>
+                    <h3 class="textos_footer">POLOS OPUESTOS</h3>
+                </div>
+            </a>
+        </li>
+    </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>

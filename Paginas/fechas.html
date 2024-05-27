@@ -5,63 +5,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Próximas Fechas</title>
     <link rel="stylesheet" href="/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
     <header class="header">
+        <img class="logo" src="../Imagenes/logopolos.png" alt="logo" width="75px" height="75px">
         <nav>
-            <ul class="sin_puntos fila">
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="../Paginas/fechas.html">PROXIMAS FECHAS</a></li>
-                <li><a href="../Paginas/canciones.html">CANCIONES</a></li>
-                <li><a href="#Redes Sociales">REDES SOCIALES</a></li>
-                <li><a href="../Paginas/contacto.html">CONTACTO</a></li>
+            <ul class="nav_links">
+                <li><a class="1" href="../index.html">INICIO</a></li>
+                <li><a class="2"href="#nosotros">SOBRE NOSOTROS</a></li>
+                <li><a class="3" href="../Paginas/fechas.html">PROXIMAS FECHAS</a></li>
+                <li><a class="4" href="../Paginas/canciones.html">CANCIONES</a></li>
+                <li><a class="5" href="#Redes Sociales">REDES SOCIALES</a></li>   
             </ul>
         </nav>
+        <a class="cta" href="../Paginas/contacto.html"><button class="boton">CONTACTO</button></a>
     </header>
-    <h1>Próximas Fechas</h1>
-    <table border="1">
-    <tr>
-        <td class="encabezado_tabla"><strong>FECHAS</strong></td>
-        <td class="encabezado_tabla"><strong>CIUDAD</strong></td>
-        <td class="encabezado_tabla"><strong>LUGAR</strong></td>
-    </tr>
-    <tr>
-        <td class="dias">14/06</td>
-        <td class="lugares">San Nicolás de los Arroyos</td>
-        <td class="lugares">Teatro Municipal "Rafael de Aguiar"</td>
-    </tr>
-    <tr>
-        <td class="dias">20/07</td>
-        <td class="lugares">San Nicolás de los Arroyos</td>
-        <td class="lugares">Festival "RICO"</td>
-    </tr>
-    <tr>
-        <td class="dias">27/07</td>
-        <td class="lugares">San Nicolás de los Arroyos</td>
-        <td class="lugares">Anfiteatro Costanera Alta</td>
-    </tr>
-    <tr>
-        <td class="dias">18/10</td>
-        <td class="lugares">Rosario</td>
-        <td class="lugares">Sala de las Artes</td>
-    </tr>
-    <tr>
-        <td class="dias">21/12</td>
-        <td class="lugares">Rosario</td>
-        <td class="lugares">Teatro "El Círculo"</td>
-    </tr>
+    <h1 class="titulos" style="text-align: center; margin-top: 16px;">PRÓXIMAS FECHAS</h1>
 
-    </table>
+        <div class="fechas color">
+            <p class="dias">JUNIO, 14</p>
+            <p>Teatro Municipal "Rafael de Aguiar"</p>
+            <p>San Nicolás de los Arroyos</p>
+        </div>
+        <div class="fechas">
+            <p class="dias">JULIO, 20</p>
+            <p>Festival "RICO"</p>
+            <p>San Nicolás de los Arroyos</p>
+        </div>
+        <div class="fechas color">
+            <p class="dias">JULIO, 27</p>
+            <p>Anfiteatro Costanera Alta</p>
+            <p>San Nicolás de los Arroyos</p>
+        </div>
+        <div class="fechas">
+            <p class="dias">OCTUBRE, 18</p>
+            <p>Sala de las Artes</p>
+            <p>Rosario</p>
+        </div>
+        <div class="fechas color" style="margin-bottom: 0px;">
+            <p class="dias">DICIEMBRE, 21</p>
+            <p>Teatro "El Círculo"</p>
+            <p>Rosario</p>
+        </div>
+    <div>
+
+
+    </div>
     <footer class="footer">
         <section id="Redes Sociales">
-    <h2>Redes Sociales</h2>
-    <ul class="sin_puntos fila">
-        <li>Instagram: <a href="https://www.instagram.com/polosopuestos.official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">@polosopuestos.official</a></li>
-        <li>Tik Tok: <a href="https://www.tiktok.com/@polosopuestos.oficial?is_from_webapp=1&sender_device=pc">polosopuestos.oficial</a></li>
-        <li>Youtube: <a href="https://www.youtube.com/@bandapolosopuestos">@bandapolosopuestos</a></li>
-        <li>Spotify: <a href="https://open.spotify.com/intl-es/artist/7LLQPZZao1QS0P1aCwR4RC?si=3xx2qrKCQIa8MiJYl0TYJw">POLOS OPUESTOS</a></li>
+            <h2 class="pie">SEGUINOS EN:</h2>
+        </section>
+    <ul class="redes">
+        <li class="flex sin_puntos">
+            <a href="https://www.instagram.com/polosopuestos.official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                <div class="iconos flexBox">
+                    <i class="bi bi-instagram"></i>
+                    <h3 class="textos_footer">@polosopuestos.official</h3>
+                </div>
+            </a>
+        </li>
+        <li class="flex sin_puntos">
+            <a href="https://www.tiktok.com/@polosopuestos.oficial?is_from_webapp=1&sender_device=pc">
+                <div class="iconos flexBox">
+                    <i class="bi bi-tiktok"></i>
+                    <h3 class="textos_footer">polosopuestos.oficial</h3>
+                </div>
+            </a>
+        </li>
+        <li class="flex sin_puntos">
+            <a href="https://www.youtube.com/@bandapolosopuestos">
+                <div class="iconos flexBox">
+                    <i class="bi bi-youtube"></i>
+                    <h3 class="textos_footer">@bandapolosopuestos</h3>
+                </div>
+            </a>
+        </li>
+        <li class="flex sin_puntos">
+            <a href="https://open.spotify.com/intl-es/artist/7LLQPZZao1QS0P1aCwR4RC?si=3xx2qrKCQIa8MiJYl0TYJw">
+                <div class="iconos flexBox">
+                    <i class="bi bi-spotify"></i>
+                    <h3 class="textos_footer">POLOS OPUESTOS</h3>
+                </div>
+            </a>
+        </li>
     </ul>
-    </section>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
