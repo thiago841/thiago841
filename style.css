@@ -258,9 +258,7 @@ tbody {
 .tabla_integrantes{
        width: 100%;
 }
-.show{
-       
-}
+
 .cerrado{
        display: none;
 }
@@ -274,5 +272,75 @@ tbody {
        
 }
 
+.float {
+       position: fixed;
+       width: 40px;
+       height: 40px;
+       background-color: #25d366;
+       bottom: 10%;
+       right: 1%;
+       border-radius: 50px;
+       text-align: center;
+       align-content: center;
+}
+
+.bi-whatsapp {
+       font-size: 110%;
+}
+
+.float:hover {
+       background-color: #2fee75;
+}
+
+.contenedor {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       position: fixed;
+       z-index: 999;
+       height: 100vh;
+       width: 100vw;
+       background-color: rgba(0, 0, 0, 0.5);
+}
+
+.verificacion {
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       padding: 3%;
+       justify-content: space-between;
+       background-color: var(--secundario);
+       color: white;
+       position: fixed;
+       z-index: 999;
+       border-radius: 20px;
+
+}
+
+.img_verif {
+       align-self: center;
+}
+
+.btn_verif {
+       display: flex;
+       flex-direction: row;
+       gap: 20%;
+       justify-content: center;
+}
+
+.btn {
+       padding: 8px 20px;
+       border-radius: 30px;
+       background-color: var(--terciario);
+       color: black;
+}
+
+.bienvenidos {
+       margin-bottom: 16px;
+}
+
+.verif_edad {
+       margin-top: 16px;
+}
 }
 
