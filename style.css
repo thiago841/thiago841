@@ -113,17 +113,6 @@ a, .boton {
              padding-bottom: 25px;
 }
 
-
-/*.fila2 {display: grid;
-       grid-template-columns: repeat(4, 1fr);
-       margin-bottom: 0px;
-       width: 100vw; justify-content: center;
-} */
-
-/*.fila2 {
-       display: inline-block;
-}*/
-
 .redes {
        box-sizing: border-box;
        display: grid;
@@ -157,7 +146,6 @@ a, .boton {
        background-color: var(--terciario);
        
        margin-bottom: 20px;
-       /* padding-right: 50px; */
 }
 
 .iconos {
@@ -214,7 +202,6 @@ a, .boton {
        display: flex;
        flex-direction: column;
        justify-content: space-between;
-       /* padding-right: 89px; */
 }
 
 .imagenes_tabla {
@@ -257,19 +244,6 @@ tbody {
 }
 .tabla_integrantes{
        width: 100%;
-}
-
-.cerrado{
-       display: none;
-}
-.pop-up{
-       background-color: var(--secundario);
-       color: var(--terciario);
-       font-size: medium;
-       width: 40vw;
-       height: 60vh;
-       margin: auto;
-       
 }
 
 .float {
@@ -387,6 +361,11 @@ tbody {
        .flex {
               padding: 0px;
 
+       }
+
+       .video {
+              width: 380px;
+              height: 200px;
        }
 
 }

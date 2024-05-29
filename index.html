@@ -11,7 +11,7 @@
 </head>
 <body>
 
- <!-- <div class="contenedor">
+ <div class="contenedor" id="ocultar">
         <div class="verificacion">
             <img src="./Imagenes/logopolos.png" alt="logopolos" class="img_verif" width="75px" height="75px">
             <div class="bienvenidos">
@@ -23,11 +23,11 @@
             <p style="font-weight: bold; font-size: 15px;">¿Sos mayor de 18 años?</p>
             </div>
             <div class="btn_verif">
-                <button class="btn">SI</button>
-                <button class="btn">NO</button>
+                <button class="btn" onclick="mayorEdad()">SI</button>
+                <button class="btn" onclick="menorEdad()">NO</button>
             </div>
         </div>
-    </div> -->
+    </div>
         
     <header class="header">
         <img class="logo" src="./Imagenes/logopolos.png" alt="logo" width="75px" height="75px">
@@ -105,6 +105,11 @@
                 Después de lanzar cuatro sencillos, seguimos perfeccionando nuestro estilo musical. Cada canción es una oportunidad para explorar y crecer, buscando siempre sorprender y conectar con la gente que nos escucha.
             </p>
         </section>
+
+        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/7K4Y37O9qYY?si=DHaM8iyVnbPnSsU1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+        </iframe>
+
         <h2 style="margin-top: 5vh;" class="titulos">INTEGRANTES POLOS</h2>
         <section  class="musica integrantes_grid">
 
@@ -126,7 +131,7 @@
                 <tr class="integrantes_tarjeta">
 
                     <td class="Integrantes">
-                        <a href="https://www.instagram.com/fran.liberati?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Francisco Liberati    
+                        <a href="https://www.instagram.com/franchiappari?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Francisco Liberati    
                         </a>
                         <p>// Voz, 21 años</p>
                     </td>
@@ -177,64 +182,6 @@
                 </tr>
                 
             </table>
-            <!-- <table>
-                <tr>
-                    <td class="Integrantes">
-                        <a href="https://www.instagram.com/franchiappari?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Francisco Chiappari
-                        </a>
-                    </td>
-                    <td class="Integrantes">
-                        <a href="https://www.instagram.com/fran.liberati?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Francisco Liberati    
-                        </a>
-                    </td>
-                    <td class="Integrantes">
-                        <a href="https://www.instagram.com/rochathiago56/">Thiago Rocha
-                        </a>
-                    </td>
-                    <td class="Integrantes">
-                        <a href="https://www.instagram.com/bauti.izquierdo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Bautista Izquierdo
-                        </a>
-                    </td>
-                    <td>
-                        <a href="https://www.instagram.com/n.ulisess?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Ulises Nuñez
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>// Teclado, 21 años</td>
-                    <td>// Voz, 21 años</td>
-                    <td>// Bajo, 21 años</td>
-                    <td>// Guitarra, 21 años</td>
-                    <td>// Batería, 17 años</td>
-                </tr>
-                <tr>
-                    <td class="imagenes_tabla">
-                        <a href="https://www.instagram.com/franchiappari?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-                            <img src="./Imagenes/chalom.jpg" alt="chalom" width="100px" height="100px">
-                        </a>
-                    </td>
-                    <td class="imagenes_tabla">
-                        <a href="https://www.instagram.com/fran.liberati?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-                            <img src="./Imagenes/liberati.jpg" alt="chalom" width="100px"height="100px">   
-                        </a>
-                    </td>
-                    <td class="imagenes_tabla">
-                        <a href="https://www.instagram.com/rochathiago56/">
-                            <img src="./Imagenes/thiago.jpg" alt="chalom" width="100px" height="100px">
-                        </a>
-                    </td>
-                    <td class="imagenes_tabla">
-                        <a href="https://www.instagram.com/bauti.izquierdo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-                            <img src="./Imagenes/bauti.jpg" alt="chalom" width="100px" height="100px">
-                        </a>
-                    </td>
-                    <td class="imagenes_tabla">
-                        <a href="https://www.instagram.com/n.ulisess?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-                            <img src="./Imagenes/uli.jpg" alt="chalom" width="100px" height="100px">
-                        </a>
-                    </td>
-                </tr>
-            </table> -->
         </section>
         
     </main>
